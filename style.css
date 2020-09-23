@@ -1,6 +1,66 @@
 body{
-    background: black;
+    background-color: #cccccc;
 }
 p{
     color: white;
+}
+
+nav {
+    background-image: url(BG\ HEADER.svg);
+    height: 381px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.components {
+    padding-left: 900px;
+    position: absolute;
+    padding-top: 42px;
+}
+
+.image1 {
+    width: 20px;
+    height: 20px;
+    padding-left: 1070px;
+    position: absolute;
+    padding-top: 42px;
+}
+
+.image2 {
+    width: 19px;
+    height: 23px;
+    padding-left: 1220px;
+    position: absolute;
+    padding-top: 40px; 
+}
+
+.image3 {
+    width: 18px;
+    height: 23px;
+    padding-left: 1260px;
+    position: absolute;
+    padding-top: 40px;  
+}
+
+.image4 {
+    width: 18px;
+    height: 23px;
+    padding-left: 1300px;
+    position: absolute;
+    padding-top: 40px;
+}
+
+.download {
+    color: white
+    font-size: 12px;
+    padding-left: 1100px;
+    position: absolute;
+    padding-top: 40px;
+}
+
+.center-left {
+    position: absolute;
+    top: 40px;
+    left: 100px;
+    
 }
