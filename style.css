@@ -1,16 +1,31 @@
-body{
+.bg {
+    position: absolute;
+    z-index: 0;
+    height: 1594px;
+    width: 1440px;
     background-color: #cccccc;
 }
 p{
     color: white;
 }
-
 nav {
+    position: relative;
     background-image: url(BG\ HEADER.svg);
+    width: 1440px;
     height: 381px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    z-index: 1;
+}
+.content {
+    position: absolute;
+    background: #FFFFFF;
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.2), 0px 2px 24px rgba(0, 0, 0, 0.14);
+    border-radius: 6px;
+    z-index: 2;
+    width: 1380px;
+    height: 1195px;
+    left: 31px;
+    top: 313px;
+    margin-bottom: 86px;
 }
 .components {
     padding-left: 900px;
@@ -49,18 +64,14 @@ nav {
     position: absolute;
     padding-top: 40px;
 }
-
 .download {
-    color: white
-    font-size: 12px;
+    color: white;
     padding-left: 1100px;
     position: absolute;
     padding-top: 40px;
 }
-
 .center-left {
     position: absolute;
     top: 40px;
     left: 100px;
-    
 }
