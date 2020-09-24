@@ -27,13 +27,123 @@ p{
     top: 313px;
     margin-bottom: 86px;
 }
+.avatar {
+    position: relative;
+    height: 160px;
+    z-index: 3;
+    left: 609px;
+    top: -85px;
+}
+.description h1 {
+    font-family: Helvetica;
+    font-weight: 500;
+    font-size: 25.55px;
+    color: #333333;
+    text-align: center;
+    margin-top: -47px;
+    margin-left: 50px;
+}
+.description h2 {
+    font-family: Helvetica;
+    font-weight: 300;
+    font-size: 14px;
+    color: #333333;
+    text-align: center;
+    margin-left: 50px;
+}
+.description text {
+    position: absolute;
+    font-family: Helvetica;
+    font-weight: 300;
+    font-size: 14px;
+    color: #999999;
+    width: 635px;
+    text-align: center;
+    left: 388px;
+    top: 240px;
+}
+.options {
+    position: absolute;
+    top: 0px;
+    left: -180px;
+}
+.studio {
+    position: absolute;
+    height: 104px;
+    width: 100px;
+    background-color: #9C27B0;
+    box-shadow: 0px 4px 20px rgba(156, 39, 176, 0.45);
+    border-radius: 4px;
+    left: 750px;
+    top: 350px;
+}
+.studio img {
+    position: absolute;
+    left: 35px;
+    top: 25px;
+}
+.studio text {
+    position: absolute;
+    font-family: Helvetica;
+    font-weight: 500;
+    font-size: 12px;
+    color: #FFFFFF;
+    left: -267px;
+    top: 72px;
+}
+.work {
+    position: absolute;
+    height: 104px;
+    width: 100px;
+    background: rgba(200, 200, 200, 0.2);
+    border-radius: 4px;
+    left: 855px;
+    top: 350px;
+}
+.work img {
+    position: absolute;
+    left: 35px;
+    top: 25px;
+}
+.work text {
+    position: absolute;
+    font-family: Helvetica;
+    font-weight: 500;
+    font-size: 12px;
+    color: #555555;
+    left: -267px;
+    top: 72px;
+}
+.favorite {
+    position: absolute;
+    height: 104px;
+    width: 100px;
+    background: #FFFFFF;
+    border-radius: 4px;
+    left: 960px;
+    top: 350px;
+}
+.favorite img {
+    position: absolute;
+    left: 35px;
+    top: 25px;
+}
+.favorite text {
+    position: absolute;
+    font-family: Helvetica;
+    font-weight: 500;
+    font-size: 12px;
+    color: #555555;
+    left: -267px;
+    top: 72px;
+}
 .content-gallary{
     position: absolute;
     height: 621px;
     width: 555px;
     padding: 0;
     margin: 0;
-    left: 413px;
+    left: 630px;
     top: 494px;
 }
 .content-gallary img{
@@ -107,7 +217,7 @@ p{
     padding: 0;
     margin: 0 auto;
     position: absolute;
-    top: 1550px;
+    top: 1250px;
     left: 165px;
 }
 .footer-nav{
