@@ -27,6 +27,29 @@ p{
     top: 313px;
     margin-bottom: 86px;
 }
+.content-gallary{
+    position: absolute;
+    height: 621px;
+    width: 555px;
+    padding: 0;
+    margin: 0;
+    left: 413px;
+    top: 494px;
+}
+.content-gallary img{
+    position: absolute;
+}
+.photo2{
+    left: 292px;
+}
+.photo3{
+    top: 227px;
+}
+.photo4{
+    top: 381px;
+    left: 292px;
+}
+
 .components {
     padding-left: 900px;
     position: absolute;
@@ -75,6 +98,9 @@ p{
     top: 40px;
     left: 100px;
 }
+/* -----------------
+---Style of FOOTER--
+----------------- */
 .footer{
     height: 17px;
     width: 1127px;
